@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #022e8def;
 }
 
 body {
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #27b41a;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url();
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -40,7 +40,7 @@ section {
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
-    position: absolute;
+    position: static;
     right: 0;
     top: 18rem;
     width: 45rem;
@@ -76,8 +76,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url() top right no-repeat,
+        url() bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -105,7 +105,7 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -129,7 +129,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #0b3183;
     border: none;
     font-weight: bold;
 }
