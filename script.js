@@ -98,4 +98,12 @@ function respostaSelecionada(opcaoSelecionada){
     mostraPergunta();
 }
 
-mostraPergunta();
+{
+
+    function mostraPergunta(){
+        caixaPerguntas.textContent = "Em 2019..."
+        textoResultado.textContent = historiaFinal;
+        caixaAlternativas.textContent = "";
+    }
+}
+mostraPergunta()
