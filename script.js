@@ -76,19 +76,10 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-function mostraPergunta()
-    if (atual=> perguntas.length){
-        mostraResultado();
-        return;
-
+function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
-
-perguntaAtual = perguntas[atual];
-caixaPerguntas.textContent = perguntaAtual.enunciado
-caixaAlternativas.textContent="";
-mostraAlternativas();
 }
 
 function mostraAlternativas(){
